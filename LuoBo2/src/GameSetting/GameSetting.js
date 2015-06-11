@@ -5,7 +5,7 @@ var GameSettingLayer = cc.Layer.extend({
     ctor: function () {
         this._super();
         this.initBackgroundLayer();
-        this.initTouchLayer();
+       // this.initTouchLayer();
     },
     initBackgroundLayer: function () {
         var layer = new GSBackGroundLayer();
