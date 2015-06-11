@@ -1,0 +1,35 @@
+{
+    "project_type":"javascript",
+    "debugMode":1,
+    "showFPS":true,
+    "frameRate":60,
+    "id":"gameCanvas",
+    "renderMode":0,
+    "engineDir":"frameworks/cocos2d-html5",
+    "modules":[
+        "cocos2d","extensions","external"
+    ],
+    "jsList":[
+        "src/resource.js",
+        "src/app.js",
+        "src/MainMenu/MainMenu.js",
+        "src/MainMenu/Layer/BackgroundLayer.js",
+        "src/MainMenu/Layer/MainLayer.js",
+        "src/MainMenu/Layer/TipLayer.js",
+
+        "src/Class/config.js",
+        "src/Class/layer/DialogLayer.js",
+        "src/Class/CustomControl/Button.js",
+
+        "src/GameSetting/Layer/GSBackGroundLayer.js",
+        "src/GameSetting/Layer/GSTouchLayer.js",
+        "src/GameSetting/GameSetting.js",
+
+        "src/GameChoose/GameChoose.js",
+        "src/GameChoose/Layer/GCMainLayer.js"
+
+
+
+
+    ]
+}
